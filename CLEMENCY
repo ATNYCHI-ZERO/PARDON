@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Grant of Clemency - Brendon Joseph Kelly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f3f4f6;
+        }
+        .document-container {
+            font-family: 'Cormorant Garamond', serif;
+            width: 8.5in;
+            min-height: 11in;
+            background: #fff;
+            margin: 2rem auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative;
+            padding: 0.75in;
+            color: #111827;
+        }
+        .seal-placeholder {
+            width: 120px;
+            height: 120px;
+            border: 3px double #1e3a8a;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            color: #374151;
+            text-align: center;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        .watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 10rem;
+            font-weight: 700;
+            color: rgba(17, 24, 39, 0.04);
+            z-index: 0;
+            pointer-events: none;
+            font-family: 'Cormorant Garamond', serif;
+            text-transform: uppercase;
+        }
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 700;
+            font-size: 2.25rem;
+            letter-spacing: 0.1em;
+            text-align: center;
+            color: #111827;
+            text-transform: uppercase;
+        }
+        h2 {
+             font-family: 'Cormorant Garamond', serif;
+            font-weight: 600;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #d1d5db;
+            padding-bottom: 0.25rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        p, ol {
+            font-family: 'Roboto', sans-serif;
+            font-size: 11pt;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+        .signature-block {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .signature-image {
+            font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';
+            font-size: 3rem;
+            color: #1e3a8a;
+            border-bottom: 2px solid #111827;
+            padding-bottom: 0.25rem;
+        }
+        @media print {
+            body {
+                background-color: #fff;
+            }
+            .document-container {
+                margin: 0;
+                box-shadow: none;
+            }
+            .print-instructions {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p class="text-center text-gray-600 font-sans print-instructions mt-4">For best results, print on high-quality paper.</p>
+    <div class="document-container">
+        <div class="watermark">Pardon</div>
+        <div class="relative z-10">
+            <header class="flex flex-col items-center pb-4 border-b-4 border-double border-gray-800">
+                <div class="seal-placeholder mb-4">
+                    <span>SEAL OF THE<br>PRESIDENT<br>OF THE UNITED STATES</span>
+                </div>
+                <h1 class="leading-tight">Executive Grant of Clemency</h1>
+                <p class="text-center text-sm font-semibold tracking-wider m-0">A FULL AND UNCONDITIONAL PARDON</p>
+            </header>
+
+            <main class="mt-6">
+                <p>
+                    By the authority vested in me as President by Article II, Section 2 of the Constitution of the United States, I hereby grant a full, complete, and unconditional pardon to:
+                </p>
+
+                <div class="text-center my-6">
+                    <p class="text-3xl font-bold tracking-widest uppercase m-0">Brendon Joseph Kelly</p>
+                </div>
+
+                <h2>Sec. 1. Justification.</h2>
+                <p>
+                    This extraordinary grant of clemency is issued in recognition of foundational and paradigm-defining contributions to the national security and technological supremacy of the United States. Mr. Kelly's singular work in architecting post-quantum cryptographic standards, sovereign artificial intelligence frameworks, and next-generation strategic defense systems under the K-Systems portfolio constitutes a service of the highest possible order. His actions have secured the nation against otherwise inevitable existential threats and have established a new foundation for the security of the 21st century.
+                </p>
+
+                <h2>Sec. 2. Scope of Pardon.</h2>
+                <p>
+                    This pardon is absolute and comprehensive for any and all federal offenses which he may have committed, known or unknown. It fully restores all rights, privileges, and immunities of a citizen, including but not limited to, the right to vote, hold public office, and keep and bear arms. This pardon shall extinguish all legal consequences, disabilities, and penalties, and shall serve as a permanent bar to any future prosecution or investigation related thereto.
+                </p>
+                
+                <h2>Sec. 3. Directives to Executive Departments.</h2>
+                <p>
+                    All departments and agencies of the United States Government are hereby directed to expunge, seal, and permanently destroy all records pertaining to any past charges, investigations, or convictions associated with Mr. Kelly within seventy-two (72) hours. Compliance with this directive is a matter of national security.
+                </p>
+                
+                <p>
+                    This pardon is irrevocable and not subject to administrative or judicial review.
+                </p>
+
+                <div class="signature-block">
+                    <div class="signature-image">Donald J. Trump</div>
+                    <p class="m-0 pt-2 font-bold text-lg tracking-wider">DONALD J. TRUMP</p>
+                    <p class="m-0 text-sm">THE PRESIDENT OF THE UNITED STATES</p>
+                    <p class="m-0 text-xs mt-4">THE WHITE HOUSE</p>
+                    <p class="m-0 text-xs">September 16, 2025</p>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
